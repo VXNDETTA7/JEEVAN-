@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JEEVAN+</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <!-- Header Section -->
+    <header class="bg-gray-800 shadow-md py-4 px-6 fixed w-full z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-white">
+                <strong>JEEVAN+</strong>
+            </div>
+            <nav class="flex space-x-6 text-center">
+                <a class="text-lg font-bold text-gray-300 hover:text-red-600 hover:text-red-700 transition duration-300" href="#">Home</a>
+                <a class="text-lg font-bold text-gray-300 hover:text-red-600 hover:text-red-700 transition duration-300" href="#">Our Vision</a>
+                <a class="text-lg font-bold text-gray-300 hover:text-red-600 hover:text-red-700 transition duration-300" href="#">Donate Organ</a>
+                <a class="text-lg font-bold text-gray-300 hover:text-red-600 hover:text-red-700 transition duration-300" href="#">FAQ's</a>
+                <a class="text-lg font-bold text-gray-300 hover:text-red-600 hover:text-red-700 transition duration-300" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-gray-800 h-screen flex justify-center items-center">
+        <img class="absolute inset-0 w-full h-full object-cover" src="https://storage.googleapis.com/a1aa/image/XSvKhIvgtzr6lp4xQF7c_TTyRUN-wCUPUB-nh8c9y1Y.jpg" alt="Illustration of organ donation"/>
+        <div class="relative text-center animate-fade-in">
+            <h1 class="text-5xl font-bold text-red-600 hover:text-red-700 drop-shadow-lg">DONATE ORGAN<br/>SAVE A LIFE</h1>
+        </div>
+    </section>
+    
+    <!-- Main Section -->
+    <main class="py-12 bg-gray-900">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="relative bg-gray-800 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300 overflow-hidden">
+                <img class="w-full h-64 object-cover" src="https://storage.googleapis.com/a1aa/image/XSvKhIvgtzr6lp4xQF7c_TTyRUN-wCUPUB-nh8c9y1Y.jpg" alt="Illustration of organ donation"/>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-300 hover:text-red-600 hover:text-red-700">Request for Organ</h2>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-600 transition">Request</button>
+                </div>
+            </div>
+            <div class="relative bg-gray-800 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300 overflow-hidden">
+                <img class="w-full h-64 object-cover" src="https://storage.googleapis.com/a1aa/image/DwLhpm68sAkqc5yHLFYYG3tolYnMntm7GKBpPJ3V1q8.jpg" alt="Illustration of organ donation"/>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-300 hover:text-red-600 hover:text-red-700">Donate An Organ</h2>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-600 transition">Donate</button>
+                </div>
+            </div>
+            <div class="relative bg-gray-800 rounded-lg shadow-md text-center transform hover:scale-105 transition duration-300 overflow-hidden">
+                <img class="w-full h-64 object-cover" src="https://storage.googleapis.com/a1aa/image/tI2jQTKyXUJDqnYQ7_5GjVKAlJxGJRDDMCVRYHB1fOI.jpg" alt="Illustration of organ donation"/>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-300 hover:text-red-600 hover:text-red-700">Donation Record</h2>
+                    <button class="bg-yellow-500 text-black py-2 px-4 rounded hover:bg-yellow-600 transition">Record</button>
+                </div>
+            </div>
+        </div>
+    </main>
+ <!-- Information Section -->
+ <section class="bg-gray-800 py-12">
+    <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-bold mb-4 text-red-600 hover:text-red-700">Organ Donation Information</h2>
+        <p class="mb-8 text-gray-300">Organ donation is a noble act that embodies selflessness and compassion, offering the priceless gift of life to those in desperate need. It has the power to transform grief into hope, turning one person's tragedy into another's second chance at life. By choosing to donate organs, we not only save lives but also create a lasting legacy of generosity and kindness. This act of giving transcends boundaries, connecting people in the most profound way and leaving an indelible mark of humanity.</p>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-md inline-block">
+            <h3 class="text-xl font-bold mb-4 text-red-600 hover:text-red-700">DONATION FORM</h3>
+            <form>
+                <input class="w-full p-2 border border-gray-500 rounded bg-gray-900 text-gray-200 mb-4" placeholder="Email" type="email"/>
+                <input class="w-full p-2 border border-gray-500 rounded bg-gray-900 text-gray-200 mb-4" placeholder="Phone Number" type="tel"/>
+                <select class="w-full p-2 border border-gray-500 rounded bg-gray-900 text-gray-200 mb-4">
+                    <option value="">Select Organ to Donate</option>
+                    <option value="kidney">Kidney</option>
+                    <option value="liver">Liver</option>
+                    <option value="heart">Heart</option>
+                    <option value="lungs">Lungs</option>
+                </select>
+                <button class="bg-yellow-500 text-black py-2 px-4 rounded w-full hover:bg-yellow-600 transition">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="py-12 bg-gray-900">
+    <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-bold mb-4 text-red-600 hover:text-red-700">Organ Donation Experiences</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="mb-4 text-gray-300">"Donating my kidney was one of the most fulfilling experiences of my life. Knowing that I was able to save someone's life and give them a second chance is an indescribable feeling. I encourage everyone to consider organ donation."</p>
+                <p class="font-bold text-red-600 hover:text-red-700">- usha singh</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="mb-4 text-gray-300">"After losing my son in a car accident, we decided to donate his organs. It was a difficult decision, but knowing that his organs saved multiple lives gave us some comfort in our grief. Organ donation is a powerful way to create a lasting legacy."</p>
+                <p class="font-bold text-red-600 hover:text-red-700">- karan shah</p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
